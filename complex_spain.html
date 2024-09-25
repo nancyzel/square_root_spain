@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+<link href="style.css" rel="stylesheet" type="text/css" media="all" >
+<script src="complex_eng.js"></script>
+<title>Número complejo </title>
+</head>
+
+<body class="bb">
+    <div class="header">
+        <input type="checkbox" id="active">
+        <label for="active" class="menu-btn"><i class="fas fa-bars"></i></label>
+        <div class="wrapper">
+            <ul>
+                <li><a class="active" href="index.html">Página principal</a></li>
+                <li><a href=real.html>Números reales</a></li>
+                <li><a href=complex.html>Número complejo</a></li>
+                <li><a href=trinomial.html>Triciclo cuadrado</a></li>
+                <li><a href=https://docs.google.com/forms/d/e/1FAIpQLSf1SmnxOsauF2o2BmO5GJI-PKs24B8E9w2wbQyNMjGJDrQI0A/viewform?usp=sf_link>Realimentación</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="header1">
+        <input type="checkbox" id="active1">
+        <label for="active1" class="menu-btn1"><i class="fa fa-globe"></i></label>
+        <div class="wrapper1">
+            <ul>
+                <li><a class="active1" href="ru_index.html">Русский</a></li>
+                <li><a href=hindi_index.html>हिन्दी</a></li>
+                <li><a href=hindi_index.html>English</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="input-win">
+
+        <div class="child1">
+            <h1 align="center" style="font-family:'BigStem'">Extraer la raíz cuadrada de un número complejo</h1>
+            <div class="bbl">
+                <div class="hello">
+                    <label for="real_num" style="color: black;">Ingrese la parte real de un número complejo (use el signo "cuando ingrese un número real."para separar la parte entera y decimal):</label>
+                </div>
+                <div class="hello1">
+                    <input type="text" id="real_num" name="real_num" size="20" style="color: black;"/>
+                </div>
+
+
+                <div class="hello">
+                    <label for="imagine_num" style="color: black;">Ingrese la parte imaginaria de un número complejo (use el signo "cuando ingrese un número real."para separar la parte entera y decimal):</label>
+                </div>
+                <div class="hello1">
+                    <input type="text" id="imagine_num" name="imagine_num" size="20" style="color: black;"/>
+                </div>
+                <div class="hello">
+                    <label for="precision" style="color: black;">Ingrese exactamente qué signo desea obtener el resultado:</label>
+                </div>
+                <div class="hello1">
+                    <input type="text" id="precision" name="precision" size="20" style="color: black;"/>
+                </div>
+
+                <div class="hello">
+                    <button onclick="sqrt_complex()">Calcular</button>
+                </div>
+                <div class="hello2">
+                    <p class="name1"></p>  
+                </div>
+
+            </div>
+                
+
+                
+
+        </div>
+
+        
+    </div>
+
+</body>
+</html>
